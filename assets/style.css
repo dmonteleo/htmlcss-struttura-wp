@@ -1,3 +1,5 @@
+/* GENERAL */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,51 @@
   width: 80%;
   min-width: 600;
   max-width: 1300;
-  margin: 10px auto;
+  margin: 0 auto;
+  /* background-color: red; */
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* HEADER */
+
+.banner {
+  background-color: #e579e6;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.bootstrap {
+  background-color: #e1d67a;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+/* MAIN */
+
+main div {
+  background-color: #0187f8;
+}
+
+.col, .center {
+  float: left;
+}
+
+.col {
+  width: 20%;
+  height: 600px;
+  padding-top: 20px;
+  background-color: red;
+}
+
+.left-col {
+  padding-left: 20px;
+}
+
+.right-col {
+
+}
