@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* UTILITIES */
+
+.container {
+  width: 80%;
+  min-width: 600;
+  max-width: 1300;
+  margin 10px auto;
+}
+
